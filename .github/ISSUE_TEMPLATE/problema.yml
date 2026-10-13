@@ -1,0 +1,53 @@
+# Modelo de issue "Problema": para contar algo que não funciona como deveria.
+name: Problema
+description: Conte algo que não está funcionando como deveria.
+title: '[Problema] '
+labels: ['problema']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por avisar! Escreva com frases curtas.
+        **Não coloque dados pessoais**, nem na captura de tela: esconda nomes, números de telefone e a sua localização.
+  - type: textarea
+    id: aconteceu
+    attributes:
+      label: O que aconteceu?
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: O que você esperava que acontecesse?
+    validations:
+      required: true
+  - type: textarea
+    id: passos
+    attributes:
+      label: Como repetir o problema?
+      description: Escreva os passos, um por linha.
+      placeholder: |
+        1. Abri o app
+        2. Toquei em...
+        3. Apareceu...
+    validations:
+      required: true
+  - type: input
+    id: aparelho
+    attributes:
+      label: Aparelho e navegador
+      placeholder: 'Exemplo: Android, Chrome'
+  - type: dropdown
+    id: idioma
+    attributes:
+      label: Idioma do app
+      options:
+        - Português
+        - Espanhol
+  - type: checkboxes
+    id: regras
+    attributes:
+      label: Antes de enviar
+      options:
+        - label: Não coloquei dados pessoais de ninguém, nem na captura de tela.
+          required: true

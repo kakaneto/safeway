@@ -1,0 +1,39 @@
+# Confere, testa e constrói o app em todo pull request e a cada mudança na main.
+# Se algum passo falhar, o GitHub mostra um X vermelho: corrija antes de juntar o pull request.
+name: Verificar
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  verificar:
+    name: Conferir, testar e construir
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o código
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Instalar o Node.js (versão do .nvmrc)
+        uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Instalar as bibliotecas
+        run: npm ci
+
+      - name: Conferir (ESLint, Prettier e TypeScript)
+        run: npm run conferir
+
+      - name: Testar
+        run: npm run testar
+
+      - name: Construir
+        run: npm run construir

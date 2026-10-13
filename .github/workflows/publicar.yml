@@ -1,0 +1,70 @@
+# Publica o app no GitHub Pages sempre que algo entra na main (ou quando alguém aperta "Run workflow").
+# Antes de publicar, confere e testa de novo: nunca publicamos uma versão quebrada.
+name: Publicar
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Uma publicação por vez: se chegar outra, ela espera a anterior terminar.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  construir:
+    name: Construir o site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o código
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Instalar o Node.js (versão do .nvmrc)
+        uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Instalar as bibliotecas
+        run: npm ci
+
+      - name: Conferir
+        run: npm run conferir
+
+      - name: Testar
+        run: npm run testar
+
+      - name: Construir para o endereço do GitHub Pages
+        run: npm run construir
+        env:
+          # No GitHub Pages o app fica em https://CONTA.github.io/NOME-DO-REPOSITORIO/
+          NOME_DO_REPOSITORIO: ${{ github.event.repository.name }}
+
+      - name: Preparar o GitHub Pages
+        uses: actions/configure-pages@v6
+
+      - name: Enviar o site construído
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  publicar:
+    name: Publicar no GitHub Pages
+    needs: construir
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.publicacao.outputs.page_url }}
+    steps:
+      - name: Publicar
+        id: publicacao
+        uses: actions/deploy-pages@v5

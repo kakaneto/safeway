@@ -1,0 +1,38 @@
+# Modelo de issue "Ideia": para sugerir algo novo no SAFEWAY.
+name: Ideia
+description: Sugira algo novo para o SAFEWAY.
+title: '[Ideia] '
+labels: ['ideia']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado pela ideia! Escreva com frases curtas.
+        **Não coloque dados pessoais** (nomes, fotos, endereços ou telefones de pessoas).
+  - type: textarea
+    id: ideia
+    attributes:
+      label: Qual é a ideia?
+      description: Explique como se fosse para alguém que nunca viu o app.
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: Que problema ela resolve? Para quem?
+    validations:
+      required: true
+  - type: textarea
+    id: tela
+    attributes:
+      label: Como você imagina isso na tela?
+      description: Pode descrever com palavras ou anexar um desenho (sem dados pessoais).
+  - type: checkboxes
+    id: regras
+    attributes:
+      label: Antes de enviar
+      options:
+        - label: Não coloquei dados pessoais de ninguém.
+          required: true
+        - label: A ideia não promete segurança e não aponta bairros ou pessoas como perigosos (regras 4 e 6 do AGENTS.md).
+          required: true
