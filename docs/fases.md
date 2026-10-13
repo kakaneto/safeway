@@ -2,7 +2,7 @@
 
 Cada fase tem um objetivo e um **critério de pronto**. Uma fase só começa quando a anterior cumpriu o critério, e antes de cada fase mostramos um plano curto e esperamos a aprovação de um adulto responsável.
 
-**Fase atual: 0, preparação** (13/10/2026).
+**Fase atual: 1, protótipo funcional em teste** (13/10/2026).
 
 ## Fase 0: preparação
 
@@ -15,7 +15,7 @@ Cada fase tem um objetivo e um **critério de pronto**. Uma fase só começa qua
 - [x] Estrutura de pastas, documentação, modelos do GitHub, automações, Codespaces e licença criados (passo 3).
 - [x] `npm run conferir`, `npm run testar` e `npm run construir` passam no computador.
 - [x] O GitHub Actions fica verde no repositório publicado: [kakaneto/safeway](https://github.com/kakaneto/safeway), com o site em <https://kakaneto.github.io/safeway/> (13/10/2026).
-- [ ] Plano da fase 1 aprovado (passo 4).
+- [x] Plano da fase 1 aprovado (passo 4): a coordenação pediu um protótipo funcional em 13/10/2026.
 
 ## Fase 1: MVP sem servidor próprio e sem cadastro
 
@@ -43,6 +43,18 @@ Cada fase tem um objetivo e um **critério de pronto**. Uma fase só começa qua
 - Funciona no celular e no computador.
 - Nenhum dado pessoal sai do aparelho. Cada requisição de rede e o que ela envia estão listados em [privacidade.md](privacidade.md).
 - O README explica como rodar em 5 passos, e alguém que nunca programou consegue seguir.
+
+### Situação do protótipo (13/10/2026)
+
+- **Pronto e testado no navegador (360 px):** itens 1 a 12, com estas exceções:
+  - o tema claro não foi feito;
+  - o telefone do projeto ainda não foi informado;
+  - a busca ainda não tem a reserva Nominatim.
+- **Testes:** as regras de rota e de explicação têm testes, incluindo o caso sem dados e o caso de falha.
+- **Falta para o critério de pronto:**
+  - testar num celular de verdade (Android e iPhone);
+  - conferir a instalação como app;
+  - revisar os textos em espanhol com falantes nativos.
 
 ## Fase 2: avisos e relatos
 

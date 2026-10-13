@@ -171,3 +171,41 @@ Cada decisão importante fica registrada aqui, com **data, decisão, motivo e al
   - O GitHub Pages grátis só funciona em repositório público.
   - Antes de publicar, conferimos que nenhum arquivo tinha e-mail pessoal, senha ou chave, e que os commits usam o e-mail `noreply`.
 - **Alternativas:** repositório privado sem site (oferecida e não escolhida).
+
+### D19: protótipo funcional da fase 1
+
+- **Data:** 2026-10-13
+- **Decisão:** construir a fase 1 como **protótipo funcional**, a pedido da coordenação, com prazo curto.
+  - Entrou: mapa escuro, "Onde estou", busca, rota a pé com alternativas, "Por que esta rota", pontos de apoio, "Ajuda agora" (offline), "Cheguei bem", favoritos, privacidade, pt/es e instalação como app.
+  - Ficou para depois: tema claro, Nominatim como reserva da busca, fonte própria, telefone do projeto (ainda não informado) e a tarefa automática que atualiza os dados.
+- **Motivo:** pedido da coordenação ("protótipo funcional, nada muito absurdo").
+- **Alternativas:** fazer a fase 1 completa antes de mostrar (mais lento).
+
+### D20: preferência moderada por ruas com luz (use_lit = 0,5)
+
+- **Data:** 2026-10-13
+- **Decisão:** pedir rotas ao Valhalla com `use_lit: 0.5`, em que trechos sem registro de luz "custam" 2 vezes mais.
+- **Motivo:** com `use_lit: 1` o custo seria 8 vezes maior. Quando poucas ruas tiverem a etiqueta `lit=yes`, isso poderia gerar desvios longos. Hoje só 16 vias de Foz têm a etiqueta.
+- **Alternativas:** `use_lit: 1` (preferência máxima) ou 0 (sem preferência).
+
+### D21: dados de Foz gerados antes, não consultados no celular
+
+- **Data:** 2026-10-13
+- **Decisão:** o script `scripts/gerar-dados.mjs` consulta a Overpass e gera dois arquivos que vão junto com o app:
+  - `public/dados/pontos-de-apoio-osm.json`: 146 pontos com nome;
+  - `public/dados/iluminacao-foz.json`: as 16 vias com a etiqueta `lit`.
+- **Motivo:**
+  - A Overpass está sobrecarregada e a política dela desaconselha uso como base de um app.
+  - Gerar antes também protege a privacidade, porque a localização da pessoa não vai para a Overpass.
+- **Alternativas:** consultar a Overpass a cada uso (instável e menos privado).
+- **Próximo passo:** rodar o script toda semana por uma tarefa agendada do GitHub Actions.
+
+### D22: ícones lucide-react, fonte do sistema e caminho "code-first"
+
+- **Data:** 2026-10-13
+- **Decisão:**
+  - Usar a biblioteca de ícones `lucide-react` (licença ISC).
+  - Usar a fonte do sistema por enquanto.
+  - Construir as telas direto no código ("code-first"), sem imagem de referência antes.
+- **Motivo:** o prazo curto do protótipo. A `lucide-react` ocupa espaço no computador, mas só os ícones usados entram no app.
+- **Alternativas:** ícones desenhados à mão; a fonte Atkinson Hyperlegible (fica para a identidade visual definitiva).

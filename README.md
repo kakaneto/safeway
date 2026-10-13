@@ -9,9 +9,21 @@ Ele é feito por adolescentes de um projeto social que estão aprendendo a progr
 - **Versão publicada:** <https://kakaneto.github.io/safeway/>
 - **Código:** <https://github.com/kakaneto/safeway>
 
-> ⚠️ **O app está em construção. Ainda não use para planejar caminhos.**
+> ⚠️ **Protótipo em teste.** Ainda não confie nele para decidir um caminho.
 >
 > O SAFEWAY sugere rotas; ele **nunca** garante que um caminho é seguro, e os dados podem estar desatualizados. Ele também não substitui os serviços de emergência: em perigo, ligue **190** (Polícia Militar) ou **192** (SAMU).
+
+## O que o protótipo já faz
+
+- **Mapa escuro de Foz do Iguaçu** com os pontos de apoio (âmbar), que dá para ligar e desligar.
+- **"Onde estou"**, que pede a localização só na hora e explica o motivo.
+- **Busca do destino** com sugestões, ou um toque no mapa para marcar o ponto.
+- **Rota a pé sugerida** com até 2 alternativas, distância e tempo.
+- **"Por que esta rota"**, que diz com honestidade quanto do caminho tem informação de iluminação e quantos pontos de apoio há perto.
+- **"Ajuda agora"**, que funciona sem internet: emergência, Conselho Tutelar, alertas da Defesa Civil e números da fronteira.
+- **"Cheguei bem"**, favoritos guardados só no aparelho, privacidade, português e espanhol, e instalação como app.
+
+Para atualizar os dados de Foz (pontos de apoio e iluminação): `node scripts/gerar-dados.mjs`.
 
 ## Rodar no seu computador em 5 passos
 
