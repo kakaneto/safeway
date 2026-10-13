@@ -1,0 +1,10 @@
+/* Estilos globais. O Tailwind cria as classes usadas nos componentes (ex.: "text-lg").
+   Cores provisórias: a identidade visual (tema escuro azul-noite e tema claro) entra na fase 1. */
+@import 'tailwindcss';
+
+:root {
+  color-scheme: dark;
+  background-color: #0b1220;
+  color: #e6edf6;
+  font-family: system-ui, sans-serif;
+}

@@ -1,0 +1,8 @@
+// Extensões do VS Code recomendadas para este projeto (o VS Code oferece instalar ao abrir a pasta).
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss"
+  ]
+}

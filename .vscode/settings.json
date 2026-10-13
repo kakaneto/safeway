@@ -1,0 +1,6 @@
+// Configurações do VS Code para este projeto: formata ao salvar, do mesmo jeito para todo mundo.
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "files.eol": "\n"
+}

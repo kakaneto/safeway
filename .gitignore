@@ -1,0 +1,29 @@
+# Lista do que o Git NÃO deve guardar (nem enviar para o GitHub).
+
+# Bibliotecas baixadas pelo npm (dá para baixar de novo com "npm install")
+node_modules/
+
+# Resultado do "npm run construir" (é gerado de novo a cada vez)
+dist/
+dev-dist/
+
+# Segredos e configurações locais: NUNCA vão para o Git (regra 11)
+.env
+.env.*
+!.env.example
+
+# Relatórios gerados por ferramentas
+coverage/
+*.log
+npm-debug.log*
+
+# Arquivos do sistema e de editores
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+
+# Configuração local da skill Impeccable (preferências de cada computador)
+.impeccable/config.local.json

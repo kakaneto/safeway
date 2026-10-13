@@ -1,0 +1,14 @@
+# Combina o jeito de escrever arquivos entre editores diferentes (VS Code, Codespaces etc.).
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+# No Markdown, dois espaços no fim da linha quebram a linha; não apague.
+trim_trailing_whitespace = false

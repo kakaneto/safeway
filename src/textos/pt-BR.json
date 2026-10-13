@@ -1,0 +1,10 @@
+{
+  "_sobre": "Textos da tela em português do Brasil. Toda chave daqui precisa existir também em es.json.",
+  "app": {
+    "nome": "SAFEWAY",
+    "descricao": "Rotas a pé sugeridas, com mais iluminação e mais pontos de apoio."
+  },
+  "emConstrucao": {
+    "aviso": "App em construção. Ainda não use para planejar caminhos. Em uma emergência no Brasil, ligue 190 (Polícia Militar) ou 192 (SAMU)."
+  }
+}

@@ -1,0 +1,6 @@
+// Ponto de partida do TypeScript: junta as duas configurações abaixo.
+// tsconfig.app.json cuida do app (navegador); tsconfig.node.json cuida do vite.config.ts (Node).
+{
+  "files": [],
+  "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }]
+}
