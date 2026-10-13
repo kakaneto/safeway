@@ -1,0 +1,11 @@
+# Faz o Git guardar todo texto com quebra de linha no padrão LF (Linux/Mac),
+# mesmo no Windows. Sem isto, o Prettier acusa erro em todo arquivo no Windows.
+* text=auto eol=lf
+
+# Arquivos binários: o Git não deve mexer neles.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.woff2 binary
