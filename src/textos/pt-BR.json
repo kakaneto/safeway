@@ -2,9 +2,142 @@
   "_sobre": "Textos da tela em português do Brasil. Toda chave daqui precisa existir também em es.json.",
   "app": {
     "nome": "SAFEWAY",
-    "descricao": "Rotas a pé sugeridas, com mais iluminação e mais pontos de apoio."
+    "descricao": "Rotas a pé sugeridas, com mais iluminação e mais pontos de apoio.",
+    "creditoOsm": "© OpenStreetMap contributors",
+    "corrigirMapa": "Corrigir o mapa"
   },
-  "emConstrucao": {
-    "aviso": "App em construção. Ainda não use para planejar caminhos. Em uma emergência no Brasil, ligue 190 (Polícia Militar) ou 192 (SAMU)."
+  "idioma": {
+    "trocar": "Español",
+    "trocarDescricao": "Cambiar el idioma a español"
+  },
+  "navegacao": {
+    "rotulo": "Telas do app",
+    "mapa": "Mapa",
+    "ajuda": "Ajuda agora",
+    "favoritos": "Favoritos",
+    "privacidade": "Privacidade"
+  },
+  "mapa": {
+    "rotuloMapa": "Mapa de Foz do Iguaçu",
+    "buscarRotulo": "Destino",
+    "buscarDica": "Para onde você vai?",
+    "buscando": "Buscando…",
+    "buscaSemResultado": "Nada encontrado em Foz do Iguaçu. Tente outro nome ou toque no mapa.",
+    "buscaFalhou": "A busca não respondeu agora. Você pode tocar no mapa para marcar o destino.",
+    "ondeEstou": "Onde estou",
+    "pontosDeApoio": "Pontos de apoio",
+    "dicaOrigem": "Toque em “Onde estou” ou toque no mapa para marcar de onde você sai.",
+    "dicaDestino": "Agora busque o destino ou toque no mapa para marcá-lo.",
+    "origem": "Saída",
+    "destino": "Chegada",
+    "pontoNoMapa": "Ponto marcado no mapa",
+    "minhaLocalizacao": "Minha localização",
+    "limpar": "Limpar",
+    "tracarRota": "Traçar rota sugerida",
+    "calculando": "Calculando a rota a pé…",
+    "rotaFalhou": "Não foi possível calcular a rota agora. Tente de novo em alguns segundos.",
+    "rotaSemResultado": "Não foi encontrado um caminho a pé entre esses dois pontos.",
+    "rotaSugerida": "Rota sugerida",
+    "alternativa": "Alternativa {n}",
+    "porQue": "Por que esta rota",
+    "verificandoLuz": "Verificando a iluminação no mapa…",
+    "mapaFalhou": "O mapa não carregou. A tela Ajuda agora continua funcionando.",
+    "salvarComo": "Salvar a chegada como:",
+    "salvo": "Salvo em Favoritos."
+  },
+  "localizacao": {
+    "titulo": "Usar sua localização?",
+    "explicacao": "O celular vai perguntar se o app pode ver onde você está. A posição fica no seu aparelho e só sai dele se você pedir uma rota a partir dela.",
+    "permitir": "Permitir",
+    "agoraNao": "Agora não",
+    "negada": "Sem permissão para ver sua localização. Você pode tocar no mapa para marcar de onde sai.",
+    "indisponivel": "Não deu para achar sua localização agora. Tente de novo ou toque no mapa."
+  },
+  "explicacao": {
+    "distancia": "Caminho a pé de {distancia}, cerca de {tempo}.",
+    "preferenciaLuz": "O cálculo prefere ruas que têm registro de iluminação no mapa.",
+    "iluminacaoFalhou": "Não foi possível verificar a iluminação deste caminho agora.",
+    "iluminacaoInsuficiente": "Iluminação: dados insuficientes. Em {semDado}% do caminho, o mapa não informa se a rua é iluminada.",
+    "iluminacao": "Iluminação no mapa: {comLuz}% com luz, {semLuz}% sem luz, {semDado}% sem informação.",
+    "apoioFalhou": "Não foi possível carregar os pontos de apoio.",
+    "apoioNenhum": "Nenhum ponto de apoio registrado a até {raio} m do caminho. Isso não quer dizer que não exista nenhum.",
+    "apoio": "Pontos de apoio registrados a até {raio} m do caminho: {n}.",
+    "aviso": "Rota sugerida, sem garantia. Os dados podem estar desatualizados: confie também no que você vê.",
+    "fonte": "Fonte: OpenStreetMap, dados de {data}."
+  },
+  "apoio": {
+    "tipos": {
+      "policia": "Polícia",
+      "bombeiros": "Bombeiros",
+      "hospital": "Hospital",
+      "saude": "Saúde",
+      "farmacia": "Farmácia",
+      "assistencia": "Assistência social",
+      "biblioteca": "Biblioteca"
+    },
+    "horario": "Horário informado: {horario}",
+    "semHorario": "Horário não informado.",
+    "ligar": "Ligar: {telefone}",
+    "fonte": "Fonte: {fonte}. Confira antes de ir."
+  },
+  "chegueiBem": {
+    "botao": "Cheguei bem",
+    "mensagem": "Cheguei bem. (mensagem enviada pelo app SAFEWAY)",
+    "explicacao": "Abre o WhatsApp ou o SMS do seu celular com a mensagem pronta. Você escolhe para quem mandar.",
+    "whatsapp": "Mandar por WhatsApp",
+    "sms": "Mandar por SMS"
+  },
+  "ajuda": {
+    "titulo": "Ajuda agora",
+    "intro": "Em perigo, ligue. Ligações para emergência são gratuitas e funcionam mesmo sem crédito.",
+    "naoSubstitui": "O SAFEWAY não chama ninguém sozinho e não substitui os serviços de emergência.",
+    "numeros": {
+      "pm": "Polícia Militar",
+      "samu": "SAMU (ambulância)",
+      "bombeiros": "Bombeiros",
+      "defesaCivil": "Defesa Civil",
+      "direitosHumanos": "Direitos Humanos",
+      "mulher": "Central de Atendimento à Mulher",
+      "cvv": "CVV (apoio emocional)",
+      "conselho1": "Conselho Tutelar I (Foz)",
+      "conselho2": "Conselho Tutelar II (Foz)"
+    },
+    "fonteConselho": "Telefones do Conselho Tutelar: site da Prefeitura de Foz do Iguaçu, conferidos em 13/10/2026.",
+    "alertasTitulo": "Alertas grátis da Defesa Civil",
+    "alertasSms": "Mande o seu CEP por SMS para 40199. Para cancelar, mande SAIR e o CEP.",
+    "cepRotulo": "Seu CEP",
+    "enviarSms": "Abrir SMS para 40199",
+    "alertasWhatsapp": "Ou pelo WhatsApp oficial (61) 2034-4611: mande “oi”.",
+    "abrirWhatsapp": "Abrir WhatsApp da Defesa Civil",
+    "fronteiraTitulo": "Perto da fronteira",
+    "fronteiraTexto": "Perto da fronteira, o celular pode usar a rede do país vizinho. Não está confirmado se o 190 funciona assim. No Brasil, 112 e 911 também chamam a Polícia Militar.",
+    "paraguai": "Paraguai: 911 (emergências), 141 (ambulância), 132 (bombeiros).",
+    "argentina": "Argentina (Misiones): 911 (polícia), 107 (ambulância), 100 (bombeiros)."
+  },
+  "favoritos": {
+    "titulo": "Favoritos",
+    "intro": "Os favoritos ficam só neste aparelho.",
+    "vazio": "Ainda não salvo. No mapa, marque a chegada e toque em “{nome}”.",
+    "casa": "Casa",
+    "escola": "Escola",
+    "projeto": "Projeto",
+    "irPara": "Ir para {nome}",
+    "remover": "Remover",
+    "apagarTudo": "Apagar tudo deste aparelho",
+    "confirmarApagar": "Apagar favoritos e preferências deste aparelho?",
+    "apagado": "Tudo apagado deste aparelho."
+  },
+  "privacidade": {
+    "titulo": "Privacidade",
+    "guardaTitulo": "O que o app guarda",
+    "guarda": "Só neste aparelho: o idioma, se a camada de pontos de apoio está ligada e os favoritos que você salvar.",
+    "nuncaTitulo": "O que o app nunca guarda",
+    "nunca": "Seu nome, telefone, contatos ou histórico de lugares. O app não tem servidor próprio: nada disso vai para nós.",
+    "enviaTitulo": "O que sai do aparelho",
+    "envioMapa": "Mapa (OpenFreeMap): quais pedaços do mapa você está vendo.",
+    "envioBusca": "Busca (Photon): o texto que você digita.",
+    "envioRota": "Rota (Valhalla, da FOSSGIS): os pontos de saída e de chegada, só quando você toca em “Traçar rota sugerida”.",
+    "envioCelular": "“Cheguei bem” e ligações saem pelo seu próprio celular (WhatsApp, SMS ou telefone).",
+    "leis": "Seguimos a LGPD e o ECA Digital (Lei 15.211/2025)."
   }
 }

@@ -1,4 +1,5 @@
-// Confere que português e espanhol têm exatamente os mesmos textos: nenhum esquecido, nenhum vazio.
+// Confere que português e espanhol têm exatamente os mesmos textos: nenhum esquecido, nenhum vazio,
+// e que nenhum texto promete segurança.
 import { describe, expect, it } from 'vitest';
 import ptBR from './pt-BR.json';
 import es from './es.json';
@@ -18,6 +19,8 @@ function listarValores(objeto: object): unknown[] {
   );
 }
 
+const PROMESSA_DE_SEGURANCA = new RegExp(String.raw`\b(segur[oa]s?|safe route)\b`, 'i');
+
 describe('textos', () => {
   it('pt-BR.json e es.json têm as mesmas chaves', () => {
     expect(listarChaves(es).sort()).toEqual(listarChaves(ptBR).sort());
@@ -27,6 +30,12 @@ describe('textos', () => {
     for (const valor of [...listarValores(ptBR), ...listarValores(es)]) {
       expect(typeof valor).toBe('string');
       expect(String(valor).trim()).not.toBe('');
+    }
+  });
+
+  it('nenhum texto promete segurança (regra 4: "rota sugerida", nunca "rota segura")', () => {
+    for (const valor of [...listarValores(ptBR), ...listarValores(es)]) {
+      expect(String(valor)).not.toMatch(PROMESSA_DE_SEGURANCA);
     }
   });
 });

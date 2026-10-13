@@ -1,0 +1,1071 @@
+{
+  "fonte": "OpenStreetMap (© OpenStreetMap contributors, ODbL)",
+  "dadosDe": "2026-10-13T19:05:10Z",
+  "pontos": [
+    {
+      "id": "node/532563270",
+      "tipo": "saude",
+      "nome": "Farma Util",
+      "lat": -25.542645,
+      "lon": -54.58652
+    },
+    {
+      "id": "node/1200867105",
+      "tipo": "hospital",
+      "nome": "Hospital Ministro Costa Cavalcante",
+      "lat": -25.497776,
+      "lon": -54.568131,
+      "telefone": "+55 45 3576-8000"
+    },
+    {
+      "id": "node/3131166059",
+      "tipo": "farmacia",
+      "nome": "Globão",
+      "lat": -25.536775,
+      "lon": -54.587005
+    },
+    {
+      "id": "node/3131166069",
+      "tipo": "farmacia",
+      "nome": "DASC",
+      "lat": -25.467783,
+      "lon": -54.584814
+    },
+    {
+      "id": "node/3133624407",
+      "tipo": "saude",
+      "nome": "Farmácia Cataratas",
+      "lat": -25.523316,
+      "lon": -54.586052
+    },
+    {
+      "id": "node/3133624409",
+      "tipo": "farmacia",
+      "nome": "Farmavida",
+      "lat": -25.522024,
+      "lon": -54.585982
+    },
+    {
+      "id": "node/3133624833",
+      "tipo": "saude",
+      "nome": "Farmácia Preço Justo",
+      "lat": -25.514993,
+      "lon": -54.585476,
+      "telefone": "+55 45 3028-5077"
+    },
+    {
+      "id": "node/3133625179",
+      "tipo": "saude",
+      "nome": "Drogafoz",
+      "lat": -25.509853,
+      "lon": -54.595644
+    },
+    {
+      "id": "node/3133625194",
+      "tipo": "saude",
+      "nome": "Odonto Sorriso",
+      "lat": -25.513023,
+      "lon": -54.585253
+    },
+    {
+      "id": "node/3134316110",
+      "tipo": "farmacia",
+      "nome": "Bioética",
+      "lat": -25.551131,
+      "lon": -54.571946
+    },
+    {
+      "id": "node/3134316112",
+      "tipo": "farmacia",
+      "nome": "Farmácias Preço Justo",
+      "lat": -25.551857,
+      "lon": -54.570761
+    },
+    {
+      "id": "node/3134318946",
+      "tipo": "bombeiros",
+      "nome": "Corpo de Bombeiros",
+      "lat": -25.542611,
+      "lon": -54.587895
+    },
+    {
+      "id": "node/3136115181",
+      "tipo": "farmacia",
+      "nome": "Cooperfarma",
+      "lat": -25.551419,
+      "lon": -54.572207
+    },
+    {
+      "id": "node/3136115376",
+      "tipo": "farmacia",
+      "nome": "Farmácia Americana",
+      "lat": -25.538354,
+      "lon": -54.586982,
+      "telefone": "+55 45 3523-4003"
+    },
+    {
+      "id": "node/3136115865",
+      "tipo": "farmacia",
+      "nome": "Farmácia Minipreço",
+      "lat": -25.551788,
+      "lon": -54.571536
+    },
+    {
+      "id": "node/3783955167",
+      "tipo": "policia",
+      "nome": "Delegacia de Homicídios",
+      "lat": -25.522256,
+      "lon": -54.576944
+    },
+    {
+      "id": "node/3924692218",
+      "tipo": "biblioteca",
+      "nome": "Fundação Cultural de Foz do Iguaçu",
+      "lat": -25.547355,
+      "lon": -54.588469
+    },
+    {
+      "id": "node/4202746893",
+      "tipo": "farmacia",
+      "nome": "Cooperfarma",
+      "lat": -25.540576,
+      "lon": -54.586246
+    },
+    {
+      "id": "node/4202759490",
+      "tipo": "saude",
+      "nome": "Droga Raia",
+      "lat": -25.541759,
+      "lon": -54.586397
+    },
+    {
+      "id": "node/4202766790",
+      "tipo": "farmacia",
+      "nome": "Cooperfarma",
+      "lat": -25.535894,
+      "lon": -54.587293
+    },
+    {
+      "id": "node/4222699340",
+      "tipo": "farmacia",
+      "nome": "Vivir más",
+      "lat": -25.582676,
+      "lon": -54.53933
+    },
+    {
+      "id": "node/4569765089",
+      "tipo": "assistencia",
+      "nome": "Secretaria do Turismo",
+      "lat": -25.546506,
+      "lon": -54.587924
+    },
+    {
+      "id": "node/4751390709",
+      "tipo": "policia",
+      "nome": "NEPOM",
+      "lat": -25.437659,
+      "lon": -54.557389
+    },
+    {
+      "id": "node/4939435662",
+      "tipo": "farmacia",
+      "nome": "Farmácia Dal Di",
+      "lat": -25.547298,
+      "lon": -54.57863,
+      "telefone": "+55 45 3574-2504"
+    },
+    {
+      "id": "node/4943227326",
+      "tipo": "farmacia",
+      "nome": "Nissei",
+      "lat": -25.53935,
+      "lon": -54.586971
+    },
+    {
+      "id": "node/5100630949",
+      "tipo": "assistencia",
+      "nome": "Ipê Clube",
+      "lat": -25.492559,
+      "lon": -54.588972
+    },
+    {
+      "id": "node/5105390521",
+      "tipo": "farmacia",
+      "nome": "Santa Maria",
+      "lat": -25.520972,
+      "lon": -54.563702
+    },
+    {
+      "id": "node/5145991758",
+      "tipo": "assistencia",
+      "nome": "Receita Estadual Foz do Iguaçú",
+      "lat": -25.545868,
+      "lon": -54.587494,
+      "horario": "Mo-Fr 08:30-12:00,13:30-18:00",
+      "telefone": "+55 45 3521-4050"
+    },
+    {
+      "id": "node/5309377521",
+      "tipo": "saude",
+      "nome": "Fono Foz",
+      "lat": -25.542034,
+      "lon": -54.583561,
+      "horario": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+      "telefone": "+55 45 9 9942 4064"
+    },
+    {
+      "id": "node/5764700553",
+      "tipo": "policia",
+      "nome": "Polícia Militar do Paraná",
+      "lat": -25.560447,
+      "lon": -54.562141
+    },
+    {
+      "id": "node/6388317652",
+      "tipo": "saude",
+      "nome": "Farmacity",
+      "lat": -25.535878,
+      "lon": -54.551808
+    },
+    {
+      "id": "node/6388326832",
+      "tipo": "saude",
+      "nome": "Farmacity",
+      "lat": -25.535586,
+      "lon": -54.557102
+    },
+    {
+      "id": "node/6421178164",
+      "tipo": "saude",
+      "nome": "Clínica Reabilitar",
+      "lat": -25.55089,
+      "lon": -54.585857
+    },
+    {
+      "id": "node/6539303086",
+      "tipo": "hospital",
+      "nome": "Centro de Especialidades - Unimed Foz do Iguaçu",
+      "lat": -25.531498,
+      "lon": -54.589817
+    },
+    {
+      "id": "node/6700911113",
+      "tipo": "saude",
+      "nome": "Dra. Liana Genovez - Reumatologia & Clínica Médica",
+      "lat": -25.531682,
+      "lon": -54.58982,
+      "horario": "Mo-Th 13:30-18:00"
+    },
+    {
+      "id": "node/6831282649",
+      "tipo": "assistencia",
+      "nome": "Conselho Comunitário da Vila C",
+      "lat": -25.45081,
+      "lon": -54.577185
+    },
+    {
+      "id": "node/6935118485",
+      "tipo": "saude",
+      "nome": "Unidade Básica d Saúde d Jardim América",
+      "lat": -25.522763,
+      "lon": -54.5887
+    },
+    {
+      "id": "node/6935118585",
+      "tipo": "saude",
+      "nome": "Unidade Básica d Saúde d Porto Belo",
+      "lat": -25.471254,
+      "lon": -54.589254,
+      "horario": "Mo-Fr 07:00-18:00"
+    },
+    {
+      "id": "node/6935118685",
+      "tipo": "hospital",
+      "nome": "UPA Jardim das Palmeiras",
+      "lat": -25.494211,
+      "lon": -54.543482,
+      "horario": "24/7"
+    },
+    {
+      "id": "node/6958221496",
+      "tipo": "assistencia",
+      "nome": "Prefeitura Municipal de Foz do Iguaçu",
+      "lat": -25.546801,
+      "lon": -54.588433
+    },
+    {
+      "id": "node/6958227411",
+      "tipo": "assistencia",
+      "nome": "Secretaria Municipal de Assistência Social",
+      "lat": -25.546675,
+      "lon": -54.587202,
+      "telefone": "+55 45 3545-1006"
+    },
+    {
+      "id": "node/6958227412",
+      "tipo": "assistencia",
+      "nome": "SINE",
+      "lat": -25.537225,
+      "lon": -54.584916
+    },
+    {
+      "id": "node/7017099089",
+      "tipo": "saude",
+      "nome": "Clínica Iguaçú",
+      "lat": -25.54209,
+      "lon": -54.583512
+    },
+    {
+      "id": "node/7017099091",
+      "tipo": "policia",
+      "nome": "Policia Civil - Nucria",
+      "lat": -25.501209,
+      "lon": -54.567807,
+      "horario": "Mo-Fr 09:00-12:00"
+    },
+    {
+      "id": "node/7039237003",
+      "tipo": "saude",
+      "nome": "Droga Raia",
+      "lat": -25.537694,
+      "lon": -54.576429
+    },
+    {
+      "id": "node/7040728268",
+      "tipo": "saude",
+      "nome": "Farmácia Preço Justo",
+      "lat": -25.537836,
+      "lon": -54.57591
+    },
+    {
+      "id": "node/7040728277",
+      "tipo": "saude",
+      "nome": "Farmácia Via Rápida",
+      "lat": -25.533221,
+      "lon": -54.574193
+    },
+    {
+      "id": "node/7040920992",
+      "tipo": "saude",
+      "nome": "Farmácias Mini Preço",
+      "lat": -25.494656,
+      "lon": -54.564548
+    },
+    {
+      "id": "node/7040920994",
+      "tipo": "saude",
+      "nome": "Farmácia Farmautil",
+      "lat": -25.494257,
+      "lon": -54.563741
+    },
+    {
+      "id": "node/7040920997",
+      "tipo": "saude",
+      "nome": "Farma A",
+      "lat": -25.49409,
+      "lon": -54.560609
+    },
+    {
+      "id": "node/7040921001",
+      "tipo": "saude",
+      "nome": "Farmacias Nissei",
+      "lat": -25.494311,
+      "lon": -54.55698
+    },
+    {
+      "id": "node/7042442738",
+      "tipo": "saude",
+      "nome": "Farmácias Nissei",
+      "lat": -25.538599,
+      "lon": -54.586152
+    },
+    {
+      "id": "node/7042442741",
+      "tipo": "saude",
+      "nome": "Farmácia Cooperfarma",
+      "lat": -25.544833,
+      "lon": -54.586327
+    },
+    {
+      "id": "node/7042442743",
+      "tipo": "saude",
+      "nome": "Droga Raia",
+      "lat": -25.547102,
+      "lon": -54.586896
+    },
+    {
+      "id": "node/7042442744",
+      "tipo": "saude",
+      "nome": "Farmácia Preço Justo",
+      "lat": -25.548078,
+      "lon": -54.586497
+    },
+    {
+      "id": "node/7042442745",
+      "tipo": "saude",
+      "nome": "Dima's Farma",
+      "lat": -25.548042,
+      "lon": -54.587438
+    },
+    {
+      "id": "node/7043880552",
+      "tipo": "saude",
+      "nome": "Botica Ouro Preto",
+      "lat": -25.548122,
+      "lon": -54.585728
+    },
+    {
+      "id": "node/7043880553",
+      "tipo": "saude",
+      "nome": "Artesani Manipulação de Fórmulas",
+      "lat": -25.547382,
+      "lon": -54.58644
+    },
+    {
+      "id": "node/7043880564",
+      "tipo": "saude",
+      "nome": "Clinica Immune",
+      "lat": -25.530079,
+      "lon": -54.572074
+    },
+    {
+      "id": "node/7043880565",
+      "tipo": "saude",
+      "nome": "UBS Maracanã",
+      "lat": -25.534454,
+      "lon": -54.567737
+    },
+    {
+      "id": "node/7043880567",
+      "tipo": "saude",
+      "nome": "Droga Raia",
+      "lat": -25.535411,
+      "lon": -54.56093
+    },
+    {
+      "id": "node/7050323759",
+      "tipo": "saude",
+      "nome": "UBS Vila Yolanda",
+      "lat": -25.549946,
+      "lon": -54.566035
+    },
+    {
+      "id": "node/7065011085",
+      "tipo": "assistencia",
+      "nome": "Centro POP de Foz do Iguaçu",
+      "lat": -25.544165,
+      "lon": -54.552272,
+      "horario": "Mo-Su 07:00-17:00",
+      "telefone": "+554539013261"
+    },
+    {
+      "id": "node/7065091997",
+      "tipo": "saude",
+      "nome": "Crescer Instituto de Pediatria Avançada",
+      "lat": -25.547254,
+      "lon": -54.5779,
+      "telefone": "+55 45 3028-8247"
+    },
+    {
+      "id": "node/7070678485",
+      "tipo": "saude",
+      "nome": "UBS Jd São Paulo",
+      "lat": -25.544865,
+      "lon": -54.552321
+    },
+    {
+      "id": "node/7084790286",
+      "tipo": "farmacia",
+      "nome": "Coprtfarma",
+      "lat": -25.468948,
+      "lon": -54.587357,
+      "horario": "Mo-Sa 08:00-20:00"
+    },
+    {
+      "id": "node/7100261923",
+      "tipo": "saude",
+      "nome": "Farmácia Preço Justo",
+      "lat": -25.534273,
+      "lon": -54.585822
+    },
+    {
+      "id": "node/7100261924",
+      "tipo": "saude",
+      "nome": "Farmarede",
+      "lat": -25.534488,
+      "lon": -54.585816
+    },
+    {
+      "id": "node/7100261925",
+      "tipo": "saude",
+      "nome": "Coperfarma",
+      "lat": -25.53483,
+      "lon": -54.585848
+    },
+    {
+      "id": "node/7138923285",
+      "tipo": "saude",
+      "nome": "UBS Vila Yolanda",
+      "lat": -25.549948,
+      "lon": -54.566046
+    },
+    {
+      "id": "node/7196997386",
+      "tipo": "assistencia",
+      "nome": "CRAS Leste",
+      "lat": -25.530294,
+      "lon": -54.539807,
+      "telefone": "+554539013273"
+    },
+    {
+      "id": "node/7205856285",
+      "tipo": "assistencia",
+      "nome": "CRAS LESTE",
+      "lat": -25.530331,
+      "lon": -54.535066,
+      "horario": "Mo-Fr 08:00-17:00",
+      "telefone": "+554539013273"
+    },
+    {
+      "id": "node/7249958385",
+      "tipo": "farmacia",
+      "nome": "Preço justo",
+      "lat": -25.543378,
+      "lon": -54.554941
+    },
+    {
+      "id": "node/7430498885",
+      "tipo": "saude",
+      "nome": "UBS MORUMBI 3",
+      "lat": -25.518273,
+      "lon": -54.535251
+    },
+    {
+      "id": "node/7467151486",
+      "tipo": "assistencia",
+      "nome": "Cartório",
+      "lat": -25.547525,
+      "lon": -54.588088
+    },
+    {
+      "id": "node/7771236485",
+      "tipo": "farmacia",
+      "nome": "Cad Farma",
+      "lat": -25.540772,
+      "lon": -54.551834,
+      "horario": "Mo-Sa 08:00-20:00",
+      "telefone": "+554535267761"
+    },
+    {
+      "id": "node/7801503785",
+      "tipo": "assistencia",
+      "nome": "Receita Federal",
+      "lat": -25.52215,
+      "lon": -54.575923,
+      "horario": "Mo-Fr 09:00-18:00"
+    },
+    {
+      "id": "node/7801503885",
+      "tipo": "policia",
+      "nome": "Polícia Civil",
+      "lat": -25.523114,
+      "lon": -54.576048
+    },
+    {
+      "id": "node/7965337186",
+      "tipo": "assistencia",
+      "nome": "Associação Fraternidade Aliança",
+      "lat": -25.574322,
+      "lon": -54.569107
+    },
+    {
+      "id": "node/7966730985",
+      "tipo": "saude",
+      "nome": "9a Regional da Saúde",
+      "lat": -25.545781,
+      "lon": -54.580747,
+      "horario": "24/7"
+    },
+    {
+      "id": "node/8104410017",
+      "tipo": "assistencia",
+      "nome": "conselho tutelar 2",
+      "lat": -25.489486,
+      "lon": -54.577893,
+      "telefone": "+554539013265"
+    },
+    {
+      "id": "node/8611260217",
+      "tipo": "saude",
+      "nome": "Genusclin",
+      "lat": -25.54577,
+      "lon": -54.586652,
+      "horario": "Mo-Fr 09:00-18:00"
+    },
+    {
+      "id": "node/8890725240",
+      "tipo": "hospital",
+      "nome": "Premier Home Care",
+      "lat": -25.535779,
+      "lon": -54.554334
+    },
+    {
+      "id": "node/9049490059",
+      "tipo": "policia",
+      "nome": "Polícia Rodoviária Federal",
+      "lat": -25.578755,
+      "lon": -54.558104,
+      "horario": "24/7",
+      "telefone": "+55 45 3266 1402"
+    },
+    {
+      "id": "node/9049527322",
+      "tipo": "policia",
+      "nome": "Delegacia PRF em Foz do Iguaçu",
+      "lat": -25.512784,
+      "lon": -54.557654,
+      "horario": "Mo-Fr 08:00-17:00",
+      "telefone": "+55 45 3522 3847"
+    },
+    {
+      "id": "node/10138850051",
+      "tipo": "biblioteca",
+      "nome": "Biblioteca Universitária",
+      "lat": -25.467545,
+      "lon": -54.570166
+    },
+    {
+      "id": "node/10572473251",
+      "tipo": "saude",
+      "nome": "Panvel",
+      "lat": -25.547094,
+      "lon": -54.582427
+    },
+    {
+      "id": "node/10574427862",
+      "tipo": "saude",
+      "nome": "IguaFarma",
+      "lat": -25.548885,
+      "lon": -54.577444
+    },
+    {
+      "id": "node/10581258263",
+      "tipo": "saude",
+      "nome": "Farmácia São João",
+      "lat": -25.545123,
+      "lon": -54.576454
+    },
+    {
+      "id": "node/10853359889",
+      "tipo": "hospital",
+      "nome": "Bioethos",
+      "lat": -25.55077,
+      "lon": -54.588998
+    },
+    {
+      "id": "node/11382642817",
+      "tipo": "policia",
+      "nome": "Delegacia da mulher",
+      "lat": -25.500727,
+      "lon": -54.571164,
+      "horario": "Mo-Fr 09:00-18:00"
+    },
+    {
+      "id": "node/11382730193",
+      "tipo": "saude",
+      "nome": "Hemonúcleo Foz do Iguaçu",
+      "lat": -25.498461,
+      "lon": -54.570296,
+      "horario": "Mo-Fr 08:00-17:00"
+    },
+    {
+      "id": "node/11547484530",
+      "tipo": "assistencia",
+      "nome": "Ministério Público Federal",
+      "lat": -25.545116,
+      "lon": -54.579918
+    },
+    {
+      "id": "node/12044590619",
+      "tipo": "saude",
+      "nome": "Farmácia Coperfarma",
+      "lat": -25.47715,
+      "lon": -54.580163
+    },
+    {
+      "id": "node/12416782900",
+      "tipo": "saude",
+      "nome": "Dentist Dr Rebecca Ortega",
+      "lat": -25.542614,
+      "lon": -54.58469,
+      "horario": "Mo-Sa 09:00-18:00",
+      "telefone": "+55 45 99824 6450"
+    },
+    {
+      "id": "node/12472069701",
+      "tipo": "policia",
+      "nome": "Policia Militar do Paraná",
+      "lat": -25.623151,
+      "lon": -54.477338
+    },
+    {
+      "id": "node/12887814239",
+      "tipo": "saude",
+      "nome": "Itamax - Instituto de Ressonância Magnética",
+      "lat": -25.526816,
+      "lon": -54.575081
+    },
+    {
+      "id": "node/12920370000",
+      "tipo": "bombeiros",
+      "nome": "Bombeiros Itaipu",
+      "lat": -25.409652,
+      "lon": -54.583922
+    },
+    {
+      "id": "node/13189097804",
+      "tipo": "saude",
+      "nome": "Farmácia São João",
+      "lat": -25.535478,
+      "lon": -54.56165
+    },
+    {
+      "id": "node/13191378103",
+      "tipo": "saude",
+      "nome": "Farmácia São João",
+      "lat": -25.547167,
+      "lon": -54.583098
+    },
+    {
+      "id": "node/13191378105",
+      "tipo": "saude",
+      "nome": "Farmácia São João",
+      "lat": -25.51207,
+      "lon": -54.59329
+    },
+    {
+      "id": "node/13233106603",
+      "tipo": "saude",
+      "nome": "Panvel",
+      "lat": -25.540929,
+      "lon": -54.587222
+    },
+    {
+      "id": "node/13233107908",
+      "tipo": "farmacia",
+      "nome": "Nissei",
+      "lat": -25.53726,
+      "lon": -54.575696
+    },
+    {
+      "id": "node/13233109002",
+      "tipo": "saude",
+      "nome": "Panvel",
+      "lat": -25.53882,
+      "lon": -54.57582
+    },
+    {
+      "id": "node/13233697002",
+      "tipo": "saude",
+      "nome": "Droga Raia",
+      "lat": -25.532306,
+      "lon": -54.573137
+    },
+    {
+      "id": "node/13236827779",
+      "tipo": "saude",
+      "nome": "UBS AKLP",
+      "lat": -25.489881,
+      "lon": -54.577942
+    },
+    {
+      "id": "node/13716119003",
+      "tipo": "assistencia",
+      "nome": "Centro Cultural Beneficente Islâmico de Foz do Iguaçu",
+      "lat": -25.520618,
+      "lon": -54.579219
+    },
+    {
+      "id": "node/13716729499",
+      "tipo": "assistencia",
+      "nome": "Grêmio Recreativo, Esportivo, Cultural e Social Escola de Samba Mocidade Unida do Porto Meira",
+      "lat": -25.569737,
+      "lon": -54.580681
+    },
+    {
+      "id": "node/13838544057",
+      "tipo": "assistencia",
+      "nome": "Cras",
+      "lat": -25.553184,
+      "lon": -54.571358
+    },
+    {
+      "id": "node/13846337746",
+      "tipo": "biblioteca",
+      "nome": "Biblioteca das Águas",
+      "lat": -25.437107,
+      "lon": -54.596625
+    },
+    {
+      "id": "node/13897788901",
+      "tipo": "saude",
+      "nome": "Farmácia São João",
+      "lat": -25.576553,
+      "lon": -54.582436
+    },
+    {
+      "id": "node/13905245702",
+      "tipo": "farmacia",
+      "nome": "Beto's Farma",
+      "lat": -25.576789,
+      "lon": -54.564815
+    },
+    {
+      "id": "node/14092313464",
+      "tipo": "hospital",
+      "nome": "Hospital Unimed",
+      "lat": -25.539656,
+      "lon": -54.517378
+    },
+    {
+      "id": "node/14095221661",
+      "tipo": "bombeiros",
+      "nome": "Posto de Bombeiro Vila Maracanã",
+      "lat": -25.539568,
+      "lon": -54.57874
+    },
+    {
+      "id": "node/14095301700",
+      "tipo": "bombeiros",
+      "nome": "9º Batalhão de Bombeiro Militar",
+      "lat": -25.497678,
+      "lon": -54.575296
+    },
+    {
+      "id": "node/14115269762",
+      "tipo": "saude",
+      "nome": "Farmácia São João",
+      "lat": -25.548728,
+      "lon": -54.550542
+    },
+    {
+      "id": "node/14115334378",
+      "tipo": "saude",
+      "nome": "Farmácia São João",
+      "lat": -25.519689,
+      "lon": -54.537294
+    },
+    {
+      "id": "node/14115355840",
+      "tipo": "saude",
+      "nome": "Farmácia São João",
+      "lat": -25.539494,
+      "lon": -54.580765
+    },
+    {
+      "id": "node/14115395672",
+      "tipo": "saude",
+      "nome": "Farmácia São João",
+      "lat": -25.486466,
+      "lon": -54.505349
+    },
+    {
+      "id": "node/14134154363",
+      "tipo": "saude",
+      "nome": "Droga Raia",
+      "lat": -25.49463,
+      "lon": -54.561217
+    },
+    {
+      "id": "node/14134868875",
+      "tipo": "saude",
+      "nome": "Droga Raia",
+      "lat": -25.545206,
+      "lon": -54.576054
+    },
+    {
+      "id": "node/14134903526",
+      "tipo": "saude",
+      "nome": "Droga Raia",
+      "lat": -25.517421,
+      "lon": -54.575421
+    },
+    {
+      "id": "node/14135516998",
+      "tipo": "saude",
+      "nome": "Droga Raia",
+      "lat": -25.498616,
+      "lon": -54.556727
+    },
+    {
+      "id": "way/28104582",
+      "tipo": "assistencia",
+      "nome": "Aduana Brasileira",
+      "lat": -25.578963,
+      "lon": -54.55808
+    },
+    {
+      "id": "way/306042897",
+      "tipo": "policia",
+      "nome": "Delegacia de Polícia Federal",
+      "lat": -25.515936,
+      "lon": -54.57338,
+      "telefone": "+55 45 3576 5500"
+    },
+    {
+      "id": "way/306948468",
+      "tipo": "hospital",
+      "nome": "hospital municipal extenção",
+      "lat": -25.548674,
+      "lon": -54.586506
+    },
+    {
+      "id": "way/440989639",
+      "tipo": "biblioteca",
+      "nome": "Biblioteca Publica - Itaipu Parquetec",
+      "lat": -25.437136,
+      "lon": -54.596603,
+      "horario": "24/7"
+    },
+    {
+      "id": "way/473353897",
+      "tipo": "saude",
+      "nome": "UPA do Morumbi",
+      "lat": -25.532686,
+      "lon": -54.534381
+    },
+    {
+      "id": "way/483086179",
+      "tipo": "policia",
+      "nome": "Polícia Rodoviária Federal",
+      "lat": -25.509638,
+      "lon": -54.595791,
+      "horario": "24/7",
+      "telefone": "+55 45 3573 5994"
+    },
+    {
+      "id": "way/483984545",
+      "tipo": "saude",
+      "nome": "Clínica Santa Luzia",
+      "lat": -25.548852,
+      "lon": -54.58554,
+      "telefone": "+55 45 3574-1497"
+    },
+    {
+      "id": "way/588998828",
+      "tipo": "hospital",
+      "nome": "hospital dos animais",
+      "lat": -25.528142,
+      "lon": -54.547832
+    },
+    {
+      "id": "way/614630108",
+      "tipo": "saude",
+      "nome": "Farmácia Cooperfarma",
+      "lat": -25.477143,
+      "lon": -54.580157
+    },
+    {
+      "id": "way/616387566",
+      "tipo": "saude",
+      "nome": "UBS do Jardim São Paulo II",
+      "lat": -25.541763,
+      "lon": -54.549763
+    },
+    {
+      "id": "way/625657831",
+      "tipo": "assistencia",
+      "nome": "associação de moradores campos do iguaçu",
+      "lat": -25.528019,
+      "lon": -54.554565
+    },
+    {
+      "id": "way/680749108",
+      "tipo": "saude",
+      "nome": "UBS Jardim Curitibano",
+      "lat": -25.493508,
+      "lon": -54.553005
+    },
+    {
+      "id": "way/689399492",
+      "tipo": "saude",
+      "nome": "Preço Justo",
+      "lat": -25.48352,
+      "lon": -54.507115
+    },
+    {
+      "id": "way/1072235924",
+      "tipo": "hospital",
+      "nome": "Unimed Foz do Iguaçu",
+      "lat": -25.530956,
+      "lon": -54.58912
+    },
+    {
+      "id": "way/1077027378",
+      "tipo": "hospital",
+      "nome": "Hospital Municipal Padre Germano Lauck",
+      "lat": -25.519482,
+      "lon": -54.576284
+    },
+    {
+      "id": "way/1078141044",
+      "tipo": "hospital",
+      "nome": "Hospital Cataratas",
+      "lat": -25.543708,
+      "lon": -54.580202
+    },
+    {
+      "id": "way/1078437541",
+      "tipo": "hospital",
+      "nome": "Hospital Costa Cavalcanti",
+      "lat": -25.499079,
+      "lon": -54.568566
+    },
+    {
+      "id": "way/1098898425",
+      "tipo": "saude",
+      "nome": "Unidade Básica de Saúde Cidade Nova",
+      "lat": -25.466983,
+      "lon": -54.55788,
+      "horario": "Mo-Fr 07:30-17:00",
+      "telefone": "+55 45 3901-3412"
+    },
+    {
+      "id": "way/1392242862",
+      "tipo": "saude",
+      "nome": "Itamax - Instituto de Ressonância Magnética",
+      "lat": -25.526829,
+      "lon": -54.575071,
+      "telefone": "+5545999988786"
+    },
+    {
+      "id": "way/1433417791",
+      "tipo": "assistencia",
+      "nome": "Fórum Eleitoral de Foz do Iguaçu",
+      "lat": -25.523993,
+      "lon": -54.565243
+    },
+    {
+      "id": "way/1436760014",
+      "tipo": "saude",
+      "nome": "Droga Raia",
+      "lat": -25.552079,
+      "lon": -54.570379,
+      "horario": "Mo-Su 07:00-23:00"
+    },
+    {
+      "id": "way/1436760015",
+      "tipo": "saude",
+      "nome": "Farmácia São João",
+      "lat": -25.55228,
+      "lon": -54.571072
+    },
+    {
+      "id": "relation/21256445",
+      "tipo": "assistencia",
+      "nome": "Aduana Brasileira",
+      "lat": -25.509634,
+      "lon": -54.596688
+    }
+  ]
+}
