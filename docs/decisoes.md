@@ -209,3 +209,16 @@ Cada decisão importante fica registrada aqui, com **data, decisão, motivo e al
   - Construir as telas direto no código ("code-first"), sem imagem de referência antes.
 - **Motivo:** o prazo curto do protótipo. A `lucide-react` ocupa espaço no computador, mas só os ícones usados entram no app.
 - **Alternativas:** ícones desenhados à mão; a fonte Atkinson Hyperlegible (fica para a identidade visual definitiva).
+
+### D23: mapa claro ("liberty") dentro da interface escura
+
+- **Data:** 2026-10-13
+- **Decisão:**
+  - Trocar o estilo do mapa de `dark` para o estilo claro `liberty` do OpenFreeMap.
+  - A interface continua no tema escuro azul-noite.
+  - Sobre o mapa claro, a rota sugerida passa a ser um ciano mais forte (`#0891b2`) com contorno branco, as alternativas ficam em cinza e os pontos de apoio em âmbar mais forte (`#f59e0b`) com borda escura.
+- **Motivo:** pedido da coordenação: o mapa escuro ficou escuro demais. O próprio OpenFreeMap avisa que o estilo `dark` ainda está incompleto.
+- **Alternativas:**
+  - manter o `dark`;
+  - usar o estilo `positron` (claro, mas com pouco contraste nas ruas);
+  - um botão para a pessoa escolher entre claro e escuro (pode vir junto com o tema claro da interface).

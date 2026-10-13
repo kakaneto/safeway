@@ -21,7 +21,7 @@ Cada fase tem um objetivo e um **critério de pronto**. Uma fase só começa qua
 
 **Objetivo:** a primeira versão que dá para usar no piloto.
 
-1. Mapa com tema escuro (MapLibre), centrado em Foz do Iguaçu, com o crédito do OpenStreetMap.
+1. Mapa (MapLibre), centrado em Foz do Iguaçu, com o crédito do OpenStreetMap. Começou escuro; desde 13/10/2026 usa o estilo claro `liberty` (decisão D23).
 2. Botão "Onde estou", que pede permissão só na hora e explica por que precisa.
 3. Busca de destino com autocompletar (Photon) e escolha de ponto tocando no mapa.
 4. Rota a pé com o Valhalla, preferindo ruas iluminadas, mostrando distância e tempo, e alternativas quando houver.

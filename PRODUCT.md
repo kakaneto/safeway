@@ -44,7 +44,7 @@ Sugestão honesta em vez de promessa:
 ## Capabilities and Constraints
 
 - **Fase 1:**
-  - mapa escuro com crédito do OpenStreetMap;
+  - mapa claro (estilo `liberty`) com crédito do OpenStreetMap, dentro da interface escura;
   - botão "Onde estou";
   - busca com autocompletar e escolha tocando no mapa;
   - rota a pé com alternativas;

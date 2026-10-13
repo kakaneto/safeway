@@ -1,4 +1,4 @@
-// Mostra o mapa escuro (MapLibre + OpenFreeMap) com a rota, as alternativas, os pontos de apoio e os marcadores.
+// Mostra o mapa claro (MapLibre + OpenFreeMap "liberty") com a rota, as alternativas, os pontos de apoio e os marcadores.
 // Se o OpenFreeMap falhar, troca para os tiles do OpenStreetMap. O crédito fica sempre visível (nunca recolhido).
 import { useEffect, useRef } from 'react';
 import * as maplibregl from 'maplibre-gl';
@@ -15,12 +15,14 @@ import type { PontoDeApoio } from '../servicos/dados.ts';
 maplibregl.setWorkerUrl(urlDoAjudante);
 
 // Cores com significado fixo (AGENTS.md): ciano = rota sugerida, âmbar = pontos de apoio.
+// São tons mais fortes que os da interface, para aparecerem bem sobre o mapa claro.
 const COR = {
-  rota: '#22d3ee',
-  alternativa: '#4b6b85',
-  apoio: '#fbbf24',
-  borda: '#0b1220',
-  origem: '#f8fafc',
+  rota: '#0891b2',
+  contorno: '#ffffff',
+  alternativa: '#64748b',
+  apoio: '#f59e0b',
+  borda: '#1f2937',
+  origem: '#0b1220',
 };
 
 const ESTILO_RESERVA: StyleSpecification = {
@@ -104,6 +106,14 @@ function adicionarCamadas(mapa: maplibregl.Map) {
   for (const id of ['rotas', 'apoio', 'marcadores']) {
     if (!mapa.getSource(id)) mapa.addSource(id, { type: 'geojson', data: colecao([]) });
   }
+  // Contorno branco embaixo das linhas, para a rota se destacar das ruas do mapa claro.
+  mapa.addLayer({
+    id: 'rotas-contorno',
+    type: 'line',
+    source: 'rotas',
+    layout: { 'line-cap': 'round', 'line-join': 'round' },
+    paint: { 'line-color': COR.contorno, 'line-width': 11 },
+  });
   mapa.addLayer({
     id: 'rotas-alternativas',
     type: 'line',
@@ -138,7 +148,7 @@ function adicionarCamadas(mapa: maplibregl.Map) {
     paint: {
       'circle-radius': 10,
       'circle-color': ['match', ['get', 'papel'], 'origem', COR.origem, COR.rota],
-      'circle-stroke-color': COR.borda,
+      'circle-stroke-color': COR.contorno,
       'circle-stroke-width': 3,
     },
   });

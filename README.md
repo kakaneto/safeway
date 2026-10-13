@@ -15,7 +15,7 @@ Ele é feito por adolescentes de um projeto social que estão aprendendo a progr
 
 ## O que o protótipo já faz
 
-- **Mapa escuro de Foz do Iguaçu** com os pontos de apoio (âmbar), que dá para ligar e desligar.
+- **Mapa de Foz do Iguaçu** com os pontos de apoio (âmbar), que dá para ligar e desligar.
 - **"Onde estou"**, que pede a localização só na hora e explica o motivo.
 - **Busca do destino** com sugestões, ou um toque no mapa para marcar o ponto.
 - **Rota a pé sugerida** com até 2 alternativas, distância e tempo.

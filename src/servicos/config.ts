@@ -3,7 +3,8 @@
 export const config = {
   valhalla: import.meta.env.VITE_URL_VALHALLA || 'https://valhalla1.openstreetmap.de',
   photon: import.meta.env.VITE_URL_PHOTON || 'https://photon.komoot.io',
-  estiloMapa: import.meta.env.VITE_URL_ESTILO_MAPA || 'https://tiles.openfreemap.org/styles/dark',
+  estiloMapa:
+    import.meta.env.VITE_URL_ESTILO_MAPA || 'https://tiles.openfreemap.org/styles/liberty',
   // Identifica o app para o servidor de rotas, como pede o projeto Valhalla.
   idDoCliente: 'safeway-prototipo',
 };
