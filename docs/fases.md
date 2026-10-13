@@ -14,7 +14,7 @@ Cada fase tem um objetivo e um **critério de pronto**. Uma fase só começa qua
 - [x] Cada fonte de dados testada com uma chamada real e documentada em [fontes-de-dados.md](fontes-de-dados.md) (passo 2).
 - [x] Estrutura de pastas, documentação, modelos do GitHub, automações, Codespaces e licença criados (passo 3).
 - [x] `npm run conferir`, `npm run testar` e `npm run construir` passam no computador.
-- [ ] O GitHub Actions fica verde no repositório publicado. Para isso, o projeto precisa ir para o GitHub, com a sua confirmação.
+- [x] O GitHub Actions fica verde no repositório publicado: [kakaneto/safeway](https://github.com/kakaneto/safeway), com o site em <https://kakaneto.github.io/safeway/> (13/10/2026).
 - [ ] Plano da fase 1 aprovado (passo 4).
 
 ## Fase 1: MVP sem servidor próprio e sem cadastro

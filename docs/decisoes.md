@@ -158,3 +158,16 @@ Cada decisão importante fica registrada aqui, com **data, decisão, motivo e al
   - Risco aceito: a 6.4.0 tinha 2,6 dias quando foi instalada, e o REA lançou 6 versões em 7 dias.
 - **Como foi verificado:** simulação (`--dry-run`) antes de aplicar, depois o diagnóstico `rea doctor` (`healthy: true`) e um teste ligando o servidor, que respondeu com 170 ferramentas.
 - **Alternativas:** a versão 4.1.0, que seguia a regra dos 7 dias (oferecida e não escolhida).
+
+### D18: repositório público e site no GitHub Pages
+
+- **Data:** 2026-10-13
+- **Decisão:**
+  - Criar o repositório **público** [kakaneto/safeway](https://github.com/kakaneto/safeway).
+  - Publicar o site em <https://kakaneto.github.io/safeway/>, com o GitHub Pages usando o GitHub Actions como fonte.
+  - Criar as etiquetas `ideia` e `problema`, usadas pelos modelos de issue.
+- **Motivo:**
+  - Pedido da coordenação.
+  - O GitHub Pages grátis só funciona em repositório público.
+  - Antes de publicar, conferimos que nenhum arquivo tinha e-mail pessoal, senha ou chave, e que os commits usam o e-mail `noreply`.
+- **Alternativas:** repositório privado sem site (oferecida e não escolhida).

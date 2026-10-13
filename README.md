@@ -6,6 +6,9 @@ O SAFEWAY é um app para celular e computador. Tecnicamente é um **PWA**: um si
 
 Ele é feito por adolescentes de um projeto social que estão aprendendo a programar com a ajuda de inteligência artificial. O piloto acontece em **Foz do Iguaçu (PR)**, com textos em **português** e **espanhol**.
 
+- **Versão publicada:** <https://kakaneto.github.io/safeway/>
+- **Código:** <https://github.com/kakaneto/safeway>
+
 > ⚠️ **O app está em construção. Ainda não use para planejar caminhos.**
 >
 > O SAFEWAY sugere rotas; ele **nunca** garante que um caminho é seguro, e os dados podem estar desatualizados. Ele também não substitui os serviços de emergência: em perigo, ligue **190** (Polícia Militar) ou **192** (SAMU).
@@ -91,7 +94,7 @@ A conta grátis do GitHub tem um limite mensal de uso do Codespaces. Quando term
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | Mesma rede Wi-Fi | Rode `npm run celular` e abra no celular o endereço que aparece em "Network" (por exemplo, `http://192.168.0.10:5173`)                            | Sem HTTPS, a localização e a instalação do app não funcionam                  |
 | Codespaces       | Na aba **Ports (Portas)**, clique com o botão direito na porta 5173, escolha **Port Visibility**, depois **Public**, e abra o endereço no celular | Qualquer pessoa com o link consegue abrir; volte para **Private** ao terminar |
-| Versão publicada | Abra o endereço do GitHub Pages do projeto                                                                                                        | Só mostra o que já entrou na branch `main`                                    |
+| Versão publicada | Abra <https://kakaneto.github.io/safeway/>                                                                                                        | Só mostra o que já entrou na branch `main`                                    |
 
 Para testar no computador com a tela estreita, use o Chrome: aperte `F12`, clique no ícone de celular e escolha a largura **360**.
 
