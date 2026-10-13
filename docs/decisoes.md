@@ -145,3 +145,16 @@ Cada decisão importante fica registrada aqui, com **data, decisão, motivo e al
 - **Decisão:** a publicação do app (GitHub Pages) fica sob responsabilidade de uma pessoa adulta ou da organização.
 - **Motivo:** os termos do OpenFreeMap (09/09/2026) dizem "You must be at least 18 years old" para quem integra o serviço. A regra não vale para quem só usa o mapa.
 - **Alternativas:** outro provedor de mapa (todos têm regras parecidas ou custo).
+
+### D17: REA 6.4.0 instalado no Claude Code e no Codex
+
+- **Data:** 2026-10-13
+- **Decisão:**
+  - Instalar o REA na versão 6.4.0, registrado como servidor MCP no Claude Code e no Codex.
+  - Instalar também as skills do REA, em `~/.claude/skills` e `~/.agents/skills`.
+- **Motivo:**
+  - Escolha da coordenação: a 6.4.0 tem mais recursos e a documentação atual.
+  - A regra dos 7 dias (D07) vale para as bibliotecas que entram no app. O REA é uma ferramenta de desenvolvimento do computador e não vai para o app.
+  - Risco aceito: a 6.4.0 tinha 2,6 dias quando foi instalada, e o REA lançou 6 versões em 7 dias.
+- **Como foi verificado:** simulação (`--dry-run`) antes de aplicar, depois o diagnóstico `rea doctor` (`healthy: true`) e um teste ligando o servidor, que respondeu com 170 ferramentas.
+- **Alternativas:** a versão 4.1.0, que seguia a regra dos 7 dias (oferecida e não escolhida).

@@ -2,23 +2,35 @@
 
 Lista do que queremos investigar com o **REA (Reverse Engineer Anything)**, a ferramenta que ajuda a entender como outros programas funcionam por dentro.
 
-## Situação em 13/10/2026
+## Situação
 
-**O REA não está instalado neste computador.** Procuramos nos servidores MCP do Claude Code, nos plugins, nas skills e na configuração do Claude Desktop, e ele não estava em nenhum lugar. Por isso as investigações abaixo esperam a instalação.
+- **13/10/2026, de manhã:** o REA não estava instalado neste computador.
+- **13/10/2026, à tarde:** instalado e registrado no **Claude Code** e no **Codex**, versão **6.4.0** (decisão D17 em [../decisoes.md](../decisoes.md)).
+  - O servidor foi testado: ligou como `rea` 6.4.0 e ofereceu 170 ferramentas, entre elas `inspect_web_page`, `inspect_web_network_capture`, `analyze_web_bundle` e `recover_javascript_sources`.
+  - As ferramentas só aparecem numa sessão nova. Depois de instalar, recarregue o VS Code com o comando "Developer: Reload Window".
 
-## Como instalar (tarefa de uma pessoa adulta responsável)
+As investigações abaixo podem começar na próxima sessão.
 
-1. Abra **um terminal seu**. A instalação não pode ser feita pelo assistente, porque faz perguntas e pede aprovação.
-2. Rode:
+## Como instalar ou reinstalar (tarefa de uma pessoa adulta responsável)
+
+1. Abra um terminal **fora da pasta do projeto**. Dentro dela, a regra do `.npmrc` (só versões com 7 dias ou mais) faz o npm escolher uma versão antiga do REA.
+2. Primeiro veja o plano, sem mudar nada:
 
    ```bash
-   npx rea-agents setup
+   npx rea-agents@6.4.0 setup --client claude_code --client codex --dry-run
    ```
 
-3. Escolha os agentes **Claude Code** e **Codex**, leia as mudanças propostas e aprove.
-4. Reinicie o Claude Code e o Codex. No VS Code, use o comando "Developer: Reload Window".
+3. Se estiver de acordo, aplique:
 
-O pacote foi conferido em 13/10/2026: `rea-agents` versão 6.4.0, licença MIT, código em <https://github.com/morluto/rea>, com atualizações recentes.
+   ```bash
+   npx rea-agents@6.4.0 setup --client claude_code --client codex --yes
+   ```
+
+4. Recarregue o VS Code ("Developer: Reload Window") e reinicie o Codex.
+
+**Se o REA parar de funcionar** depois de limpar o cache do npm ou atualizar o Node.js, rode de novo o passo 3. O registro aponta para a cópia do REA guardada no cache do npm e para a versão atual do Node.
+
+O pacote foi conferido em 13/10/2026: `rea-agents`, licença MIT, código em <https://github.com/morluto/rea>.
 
 Para analisar sites, o REA usa um navegador da família Chrome. Os programas Ghidra, Hopper e IDA só servem para programas compilados, que não são o nosso caso.
 
